@@ -1,0 +1,379 @@
+body {
+    background-color:#ffffff;
+    font-family:arial, sans serif;
+}
+
+#container {
+    display:flex;
+    position:fixed;
+    flex-direction:row;
+    z-index:999;
+    justify-content:space-between;
+    right:0;
+    left:0;
+    top:0;
+    background-color:#ffffff;
+    height:70px;
+}
+
+#topLogo {
+    max-width:25%;
+    position:fixed;
+    left:15px;
+    top:30px;
+}
+
+#menu {
+    max-width:10%;
+    right:15px;
+    position:fixed;
+    top:20px;
+    margin-top:0;
+}
+h1 {
+    color:#000000;
+    margin-top:80px;
+    text-align:center;
+}
+h5 {
+    font-weight:normal;
+    text-align:center;
+    font-size:14px;
+}
+.click {
+    display:flex;
+}
+.google {
+    width:25%;
+    margin-left:22%;
+}
+.apple {
+    width:25%;
+    margin-left:5%;
+}
+#first {
+    display:inline-block;
+    font-size:10px;
+    color:gray;
+    position:absolute;
+    top:294px;
+    left:30px;
+}
+#ng {
+    display:inline-block;
+    width:6%;
+    position:absolute;
+    left:158px;
+    top:298px;
+}
+#next {
+    display:inline-block;
+    font-size:10px;
+    color:gray;
+    position:absolute;
+    right:80px;
+    top:294px;
+}
+#nd {
+    display:inline-block;
+    width:13%;
+    position:absolute;
+    right:30px;
+    top:302px;
+}
+#twin {
+    padding:0 10px 0 10px;
+    margin-top:45px;
+}
+.middle {
+    background-color:#000000;
+    position:absolute;
+    top:600px;
+    right:0;
+    left:0;
+    height:1330px;
+    width:100%;
+}
+.advert {
+    position:absolute;
+    top:370px;
+    width:97%;
+}
+.do {
+    font-weight:bold;
+    font-size:20px;
+    background:linear-gradient(to right, #5D3FD3, #ffffff);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    margin-top:460px;
+    text-align:center;
+    margin-bottom:5px;
+}
+.more {
+    color:#ffffff;
+    text-align:center;
+    margin-top:0;
+    font-size:13px;
+    margin-bottom:0;
+}
+.bills {
+    max-width:100%;
+    position:absolute;
+    top:540px;
+}
+.earn {
+    font-weight:bold;
+    font-size:20px;
+    background:linear-gradient(to right, #ffd700, #ffffff);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    margin-top:350px;
+    text-align:center;
+    margin-bottom:20px;
+}
+.with {
+    color:#ffffff;
+    text-align:center;
+    font-size:13px;
+    margin-bottom:2px;
+}
+.coupon {
+    max-width:100%;
+    position:absolute;
+    top:980px;
+}
+#slide {
+    border:solid 1px #f5f5f5;
+    border-radius:20px;
+    margin:10px;
+    position:absolute;
+    top:2000px;
+    width:90%;
+    height:530px;
+    margin-left:9px;
+    background-color:#f5f5f5;
+}
+#man {
+    max-width:100%;
+    border-radius:20px 20px 0 0;
+    border:solid 1px #800080;
+    width:100%;
+    height:350px;
+    background:linear-gradient(to right, #800080, #5D3FD3, #7F00FF, #800080);
+}
+#your {
+    font-weight:bold;
+    font-size:20px;
+    margin-left:10px;
+}
+#palm {
+    margin-left:10px;
+    font-size:13px;
+}
+#second {
+    border:solid 1px #f5f5f5;
+    border-radius:20px;
+    margin:10px;
+    position:absolute;
+    top:2600px;
+    width:90%;
+    height:595px;
+    margin-left:9px;
+    background-color:#f5f5f5;
+}
+#help {
+    max-width:100%;
+    border-radius:20px 20px 0 0;
+    width:100%;
+    height:350px;
+}
+#happy {
+    font-weight:bold;
+    font-size:20px;
+    margin-left:10px;
+}
+#browse {
+    margin-left:10px;
+    font-size:13px;
+}
+#contact {
+    background-color:#5D3FD3;
+    color:#ffffff;
+    margin-left:10px;
+    margin-top:20px;
+    border:solid 1px  #5D3FD3;
+    width:80px;
+    border-radius:5px;
+    padding:5px;
+    height:35px;
+    font-weight:bold;
+}
+.below {
+    position:absolute;
+    top:3250px;
+    background:linear-gradient(to right,#800080, #5D3FD3, #7F00FF, #800080);
+    left:0;
+    right:0;
+    padding:20px 0 20px 10px;
+    height:100px;
+}
+.one,
+.two {
+    width:25%;
+    display:inline-block;
+}
+.join {
+    font-weight:bold;
+    color:#ffffff;
+}
+.age {
+    border:solid 1px #ffffff;
+    position:absolute;
+    height:35px;
+    background-color:#E6E6FA;
+    width:70px;
+    border-radius:0 0 100% 0;
+    opacity:0.2;
+}
+.two {
+    padding-left:10px;
+}
+#last {
+    position:absolute;
+    top:3390px;
+    display:flex;
+    flex-direction:column;
+    background-color:#000000;
+    padding:20px 0 20px 10px;
+    left:0;
+    right:0;
+}
+#pay,
+#nig,
+#pci,
+#ndic,
+#ndpc {
+    width:35%;
+    margin-bottom:15px;
+}
+#pay {
+    margin-bottom:20px;
+    width:25%;
+}
+hr {
+    width:100%;
+    background-color:#272727;
+    border:none;
+    height:1px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+#personal {
+    color:#ffffff;
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:5px;
+}
+#palmpay,
+#send,
+#payment,
+#buy {
+    color:#ffffff;
+    margin-bottom:5px;
+    font-size:13px;
+}
+#business {
+    color:#ffffff;
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:5px;
+}
+#payin,
+#payout,
+#pos,
+#transfer,
+#biz,
+#manage {
+    color:#ffffff;
+    margin-bottom:5px;
+    font-size:13px;
+}
+#company {
+    color:#ffffff;
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:5px;
+}
+#about, 
+#blog,
+#press,
+#contacty {
+    color:#ffffff;
+    margin-bottom:5px;
+    font-size:13px;
+}
+#legal {
+    color:#ffffff;
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:5px;
+}
+#privacy,
+#terms,
+#complain {
+    color:#ffffff;
+    margin-bottom:5px;
+    font-size:13px;
+}
+#instagram {
+    color:#000000;
+    background-color:#ffffff;
+    font-size:20px;
+    padding:5px;
+    width:16px;
+    height:16px;
+    border:solid 1px #ffffff;
+    border-radius:100%;
+}
+#facebook,
+#twitter,
+#link {
+    color:#ffffff;
+    font-size:20px;
+    margin-left:15px;
+    border:solid 1px #ffffff;
+    border-radius:100%;
+    height:16px;
+    width:16px;
+    padding:5px;
+}
+#final {
+    position:absolute;
+    top:4460px;
+    display:flex;
+    flex-direction:row;
+    background-color:#000000;
+    padding:20px 0 20px 10px;
+    left:0;
+    right:0;
+    height:270px;    
+    bottom:0;
+}
+#copy {
+    font-size:13px;
+    color:#ffffff;
+    padding-left:5px;
+    position:absolute;
+    top:4520px;
+}
+#hype {
+    position:absolute;
+    top:4560px;
+}
+#message {
+    color:gray;
+    font-size:12px;
+    position:absolute;
+    top:4590px;
+    line-height:20px;
+}
